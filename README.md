@@ -1,5 +1,8 @@
 # Quotes-App
 
+- It's a quotes app where one can simply find interesting quotes.
+- It consist motivational quotes, inspirational quotes, ability quotes and enthusiasm quotes where you can favourite them if liked the most.
+
 ## To Run the Application
 
 - Clone this repo: `git clone https://github.com/hemantj99/TicTacToe_Android.git`
@@ -21,8 +24,6 @@
 
 I hope you enjoy it!
 
-~
-
 
 
 <!-- CONTRIBUTING -->
@@ -35,13 +36,6 @@ Contributions are what make the open source community such an amazing place to b
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 
 
