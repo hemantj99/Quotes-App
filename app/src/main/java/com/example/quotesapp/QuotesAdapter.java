@@ -34,7 +34,7 @@ public class QuotesAdapter extends RecyclerView.Adapter<QuotesAdapter.QuotesView
     public void onBindViewHolder(@NonNull QuotesViewHolder quotesViewHolder, int i) {
         String[] colors = {"#E91E63","#FFC107","#009688","#448AFF","#FF5722"};
         final String quote = quotes.get(i);
-        quotesViewHolder.txtQuote.setText(quote);
+        quotesViewHolder.textQuote.setText(quote);
         int color = i % colors.length;
         final int intColor = Color.parseColor(colors[color]);
         quotesViewHolder.quoteContainer.setBackgroundColor(intColor);
@@ -48,12 +48,12 @@ public class QuotesAdapter extends RecyclerView.Adapter<QuotesAdapter.QuotesView
 
     public class QuotesViewHolder extends RecyclerView.ViewHolder {
 
-        TextView txtQuote;
+        TextView textQuote;
         LinearLayout quoteContainer;
 
         public QuotesViewHolder(@NonNull View itemView) {
             super(itemView);
-            txtQuote = itemView.findViewById(R.id.txtQuote);
+            textQuote = itemView.findViewById(R.id.textQuote);
             quoteContainer = itemView.findViewById(R.id.quoteContainer);
         }
     }

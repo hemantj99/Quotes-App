@@ -9,7 +9,6 @@
         android:id="@+id/quoteContainer"
         android:layout_width="match_parent"
         android:layout_height="160dp"
-        android:background="@color/colorAccent"
         android:orientation="vertical"
         android:padding="16dp">
 
@@ -19,7 +18,7 @@
             android:src="@drawable/quote" />
 
         <TextView
-            android:id="@+id/txtQuote"
+            android:id="@+id/textQuote"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="This is a sample quote. You can write anything you want."
