@@ -14,24 +14,22 @@ import java.util.List;
 
 public class QuotesAdapter extends RecyclerView.Adapter<QuotesAdapter.QuotesViewHolder> {
 
-    List<String> quotes = null;
+    List<String> quotes;
     Context context;
 
     public QuotesAdapter(List<String> quotes, Context context) {
         this.quotes = quotes;
         this.context = context;
     }
-
-    @NonNull
     @Override
-    public QuotesViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
+    public QuotesViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
         LayoutInflater inflater = LayoutInflater.from(context);
         View view = inflater.inflate(R.layout.list_item_quote, viewGroup, false);
         return new QuotesViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull QuotesViewHolder quotesViewHolder, int i) {
+    public void onBindViewHolder(QuotesViewHolder quotesViewHolder, int i) {
         String[] colors = {"#E91E63","#FFC107","#009688","#448AFF","#FF5722"};
         final String quote = quotes.get(i);
         quotesViewHolder.textQuote.setText(quote);
@@ -51,7 +49,7 @@ public class QuotesAdapter extends RecyclerView.Adapter<QuotesAdapter.QuotesView
         TextView textQuote;
         LinearLayout quoteContainer;
 
-        public QuotesViewHolder(@NonNull View itemView) {
+        public QuotesViewHolder(View itemView) {
             super(itemView);
             textQuote = itemView.findViewById(R.id.textQuote);
             quoteContainer = itemView.findViewById(R.id.quoteContainer);
