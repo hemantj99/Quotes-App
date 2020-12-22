@@ -1,5 +1,5 @@
 # Quotes-App
-
+This app will help you to copy as well as share the Quotes on different platform with a Beautiful Splash Screen and UI.
 
 ## To Run the Application
 
