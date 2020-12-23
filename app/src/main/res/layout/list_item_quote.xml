@@ -46,7 +46,9 @@
             android:paddingRight="20dp"
             android:background="@drawable/button_border"
             android:text="Copy"
-            android:textColor="#000">
+            android:textColor="#000"
+            android:drawableRight="@drawable/ic_baseline_file_copy_24"
+            >
 
         </Button>
 
@@ -57,6 +59,7 @@
             android:layout_weight="1"
             android:paddingRight="20dp"
             android:background="@drawable/button_border"
+            android:drawableRight="@drawable/ic_baseline_share_24"
             android:textColor="#000"
             android:text="Share">
 
