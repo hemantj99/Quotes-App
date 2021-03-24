@@ -1,4 +1,4 @@
-# Quotes-App
+# ShareQuotes
 
 
 ## To Run the Application
@@ -13,7 +13,7 @@
 
 - It is very simple, Unpack the download ZIP (from this repository) and open Android studio.
 - Go to File -> New -> Import project and look for the unpacked file in your computer.
-- Application Name: Quotes-App will appear to the users, select it and open it.
+- Application Name: ShareQuotes will appear to the users, select it and open it.
 - If you try to run, there will be a prompt message to let you know that you need and Create Virtual Device.
 - So do this, From the Your Virtual Devices page of the AVD Manager, click Create Virtual Device.
 - Select a hardware profile, and then click Next.
