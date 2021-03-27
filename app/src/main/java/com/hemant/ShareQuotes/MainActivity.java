@@ -1,10 +1,13 @@
-package com.example.quotesapp;
+package com.hemant.ShareQuotes;
+
+import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.os.Bundle;
+import com.hemant.ShareQuotes.R;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

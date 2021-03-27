@@ -1,10 +1,11 @@
-package com.example.quotesapp;
+package com.hemant.ShareQuotes;
 
 import android.content.Intent;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Handler;
 import android.os.Bundle;
 import android.view.WindowManager;
+import com.hemant.ShareQuotes.R;
 
 public class SplashActivity extends AppCompatActivity {
 

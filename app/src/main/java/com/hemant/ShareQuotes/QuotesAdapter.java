@@ -1,4 +1,4 @@
-package com.example.quotesapp;
+package com.hemant.ShareQuotes;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
@@ -12,8 +12,8 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.hemant.ShareQuotes.R;
 
-import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;

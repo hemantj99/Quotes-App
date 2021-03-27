@@ -4,7 +4,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 30
     defaultConfig {
-        applicationId "com.example.quotesapp"
+        applicationId "com.example.ShareQuotes"
         minSdkVersion 19
         targetSdkVersion 30
         versionCode 1
