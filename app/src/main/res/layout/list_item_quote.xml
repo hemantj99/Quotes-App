@@ -6,13 +6,11 @@
     android:orientation="vertical"
     android:padding="@dimen/_10sdp"
     >
-
     <LinearLayout
         android:id="@+id/quoteContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-
     <TextView
         android:id="@+id/textQuote"
         android:layout_width="match_parent"
@@ -23,12 +21,6 @@
         android:textColor="#ffffff"
         android:padding="@dimen/_26sdp"
         android:textSize="@dimen/_16sdp"/>
-    <ImageView
-        android:id="@+id/image"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        />
-
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -38,8 +30,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
-
-
         <Button
             android:id="@+id/copyBtn"
             android:layout_width="wrap_content"
@@ -49,11 +39,8 @@
             android:background="@drawable/button_border"
             android:text="Copy"
             android:textColor="#000"
-            android:drawableRight="@drawable/ic_baseline_file_copy_24"
-            >
-
+            android:drawableRight="@drawable/ic_baseline_file_copy_24">
         </Button>
-
         <Button
             android:id="@+id/shareBtn"
             android:layout_width="wrap_content"
@@ -64,9 +51,6 @@
             android:drawableRight="@drawable/ic_baseline_share_24"
             android:textColor="#000"
             android:text="Share">
-
         </Button>
-
-
     </LinearLayout>
 </LinearLayout>
