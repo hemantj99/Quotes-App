@@ -4,33 +4,29 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:padding="12dp">
+    android:padding="@dimen/_10sdp">
 
     <LinearLayout
         android:id="@+id/quoteContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="16dp">
+        android:orientation="vertical">
 
-        <ImageView
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:src="@drawable/quote" />
-
-        <TextView
-            android:id="@+id/textQuote"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:text="This is a sample quote. You can write anything you want."
-            android:textColor="#FFF"
-            android:textSize="22sp" />
+    <TextView
+        android:id="@+id/textQuote"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:gravity="center"
+        android:background="@drawable/quotes"
+        android:text="This is a sample quote. You can write anything you want."
+        android:textColor="#ffffff"
+        android:padding="@dimen/_26sdp"
+        android:textSize="@dimen/_16sdp" />
 
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="@dimen/_40sdp"
         android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,7 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:paddingRight="20dp"
+            android:paddingRight="@dimen/_16sdp"
             android:background="@drawable/button_border"
             android:text="Copy"
             android:textColor="#000"
@@ -57,7 +53,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:paddingRight="20dp"
+            android:paddingRight="@dimen/_16sdp"
             android:background="@drawable/button_border"
             android:drawableRight="@drawable/ic_baseline_share_24"
             android:textColor="#000"
@@ -67,7 +63,4 @@
 
 
     </LinearLayout>
-
-
-
 </LinearLayout>

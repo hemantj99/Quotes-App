@@ -12,7 +12,6 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-import com.hemant.ShareQuotes.R;
 
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -59,9 +58,9 @@ public class QuotesAdapter extends RecyclerView.Adapter<QuotesAdapter.QuotesView
             @Override
             public void onClick(View v) {
                 Intent txtIntent = new Intent(Intent.ACTION_SEND);
-                txtIntent .setType("text/plain");
+                txtIntent.setType("text/plain");
                 txtIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                txtIntent .putExtra(Intent.EXTRA_TEXT, quotes.get(i));
+                txtIntent.putExtra(Intent.EXTRA_TEXT, quotes.get(i));
                 context.startActivity(Intent.createChooser(txtIntent ,"Share"));
                 Toast.makeText(context, "Sharing..", Toast.LENGTH_SHORT).show();
             }
