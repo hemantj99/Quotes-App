@@ -1,5 +1,16 @@
-# ShareQuotes
+# ShareQuotes 
 
+ ShareQuotes is an Android Quotes Sharing app which uses text file to show Quotes using RecyclerView and we can share quotes to different platforms such as whatsapp, instagram, facebook etc and also have beautiful Animated Splash Screen.
+ Technology Used: Java, XML and Third Party Libraries.
+ 
+ <a href='https://play.google.com/store/apps/details?id=com.hemant.ShareQuotes'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width = "250px"/></a>
+
+<p float="left">
+  <img src="https://github.com/hemantj99/ShareQuotes/blob/main/Screenshots/screen_1.png" width="150">
+  <img src="https://github.com/hemantj99/ShareQuotes/blob/main/Screenshots/screen_2.png" width="150">
+  <img src="https://github.com/hemantj99/ShareQuotes/blob/main/Screenshots/screen_3.png" width="150">
+  <img src="https://github.com/hemantj99/ShareQuotes/blob/main/Screenshots/screen_4.png" width="150">
+</p>
 
 ## To Run the Application
 
